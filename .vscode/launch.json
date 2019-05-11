@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AudioConsole",
+            "request": "launch",
+            "mainClass": "com.amazonaws.transcribestreaming.AudioConsole",
+            "projectName": "aws-transcribe-sample-application"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TranscribeStreamingDemoApp",
+            "request": "launch",
+            "mainClass": "com.amazonaws.transcribestreaming.TranscribeStreamingDemoApp",
+            "projectName": "aws-transcribe-sample-application"
+        }
+    ]
+}

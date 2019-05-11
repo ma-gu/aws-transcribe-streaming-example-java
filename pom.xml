@@ -35,6 +35,21 @@
       <artifactId>reactive-streams</artifactId>
       <version>1.0.2</version>
     </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-polly</artifactId>
+      <version>1.11.77</version>
+    </dependency>
+    <dependency>
+      <groupId>com.googlecode.soundlibs</groupId>
+      <artifactId>jlayer</artifactId>
+      <version>1.0.1-1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.reactivex.rxjava2</groupId>
+      <artifactId>rxjava</artifactId>
+      <version>2.2.8</version>
+    </dependency>
 
   </dependencies>
 
@@ -55,7 +70,8 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>com.amazonaws.transcribestreaming.TranscribeStreamingDemoApp</mainClass>
+              <!-- <mainClass>com.amazonaws.transcribestreaming.TranscribeStreamingDemoApp</mainClass> -->
+              <mainClass>com.amazonaws.transcribestreaming.AudioConsole</mainClass>
             </manifest>
           </archive>
 
